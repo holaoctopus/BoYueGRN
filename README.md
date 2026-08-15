@@ -117,11 +117,11 @@ checkpoints/ablation/                       # 7 ablation models (Table 2)
 ```
 
 Download from the companion HuggingFace model repository:
-**https://huggingface.co/holaoctopus/boyuegrn**
+**https://huggingface.co/Holaoctopus/boyuegrn**
 
 ```python
 from huggingface_hub import snapshot_download
-snapshot_download(repo_id="holaoctopus/boyuegrn", repo_type="model",
+snapshot_download(repo_id="Holaoctopus/boyuegrn", repo_type="model",
                   local_dir="./boyuegrn_ckpt")
 ```
 

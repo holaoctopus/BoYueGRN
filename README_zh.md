@@ -113,11 +113,11 @@ checkpoints/ablation/                       # 7 个消融模型（Table 2）
 ```
 
 请从配套的 HuggingFace 模型仓库下载：
-**https://huggingface.co/holaoctopus/boyuegrn**
+**https://huggingface.co/Holaoctopus/boyuegrn**
 
 ```python
 from huggingface_hub import snapshot_download
-snapshot_download(repo_id="holaoctopus/boyuegrn", repo_type="model",
+snapshot_download(repo_id="Holaoctopus/boyuegrn", repo_type="model",
                   local_dir="./boyuegrn_ckpt")
 ```
 
