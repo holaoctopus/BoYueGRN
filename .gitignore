@@ -1,0 +1,16 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# External data & outputs (not part of the source release)
+data_external/
+checkpoints/
+processed_data/
+results/

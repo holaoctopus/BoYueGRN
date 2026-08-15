@@ -1,0 +1,6 @@
+# BoYueGRN base runtime dependencies (model / pipeline)
+# Tested with Python 3.12.
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.3

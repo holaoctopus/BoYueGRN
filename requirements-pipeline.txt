@@ -1,0 +1,19 @@
+# BoYueGRN full-pipeline runtime environment (training / evaluation / inference)
+# Python 3.12 | PyTorch 2.6.0+cu124
+# Install: pip install -r requirements-pipeline.txt
+# Note: the CUDA-enabled PyTorch wheel is fetched from the PyTorch index
+# (--extra-index-url below). For CPU-only builds, install torch separately:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+anndata==0.13.2
+gseapy>=1.1.0          # GO enrichment (GSEA prerank)
+h5py>=3.10.0           # h5ad file reading (K562/HCT116 Perturb-seq)
+numpy==2.4.6
+pandas==2.3.3
+scanpy==1.12.2
+scikit-learn==1.9.0
+scipy==1.18.0
+statsmodels>=0.14.0    # FDR correction (multipletests) in DEG analysis
+torch==2.6.0+cu124
