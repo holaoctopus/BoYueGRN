@@ -140,3 +140,7 @@ Then set `BOYUE_CKPT` to point at `./boyuegrn_ckpt/checkpoints`.
 ## 4. License
 
 - **Code** (`boyue/`, `scripts/`): Apache License 2.0 — see `LICENSE`.
+
+## 5. Cite
+BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models
+Jingyue Wu and Ying-Qiang Shen，bioRxiv, 2026
