@@ -137,3 +137,7 @@ snapshot_download(repo_id="Holaoctopus/boyuegrn", repo_type="model",
 ## 4. 许可
 
 - **代码**（`boyue/`、`scripts/`）：Apache License 2.0 — 见 `LICENSE`。
+
+## 5.引用
+BoYueGRN: Zero-shot causal discovery of directed gene regulatory networks from single-cell transcriptomes via amortized inference over synthetic structural causal models
+Jingyue Wu and Ying-Qiang Shen，bioRxiv, 2026
